@@ -1,5 +1,5 @@
-import Sidebar from './Sidebar.jsx';
-import Topbar from './Topbar.jsx';
+import Sidebar from '.Sidebar';
+import Topbar from '.Topbar';
 import { Outlet } from 'react-router-dom';
 
 const Layout = ({ onLogout }) => {

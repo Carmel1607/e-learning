@@ -1,6 +1,5 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, Compass, BookOpen, MessageSquare, Settings, LogOut, Plus } from 'lucide-react';
+import { LayoutDashboard, Compass, Settings, LogOut, Plus } from 'lucide-react';
 
 import { user } from '../data/mockData';
 

@@ -75,5 +75,5 @@ export const user = {
   name: "Prashant Kumar Singh",
   email: "nedusch@gmail.com",
   avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Prashant",
-  role: "user" // Change to "user" to see user view
+  role: "admin" // Changer en "user" pour voir la partie admin
 };

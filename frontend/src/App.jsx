@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
-import Dashboard from './pages/Dashboard';
+
 import Explore from './pages/Explore';
 import CourseDetail from './pages/CourseDetail';
 import Settings from './pages/Settings';
@@ -29,7 +29,6 @@ export default function App() {
 
         {/* App Routes */}
         <Route path="/" element={<Layout onLogout={() => setIsLogoutModalOpen(true)} />}>
-          <Route index element={<Dashboard />} />
           <Route path="explore" element={<Explore />} />
           <Route path="course/:id" element={<CourseDetail />} />
           <Route path="settings" element={<Settings />} />
